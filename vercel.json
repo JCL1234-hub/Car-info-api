@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/carinfo",
+      "dest": "/api/carinfo.js"
+    },
+    {
+      "src": "/api/status",
+      "dest": "/api/status.js"
+    }
+  ]
+}
