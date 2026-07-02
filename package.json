@@ -1,0 +1,22 @@
+{
+  "name": "code-craft-car-info-api",
+  "version": "1.0.0",
+  "description": "Production Ready Node.js REST API for Vehicle Information",
+  "author": "@username_506",
+  "license": "MIT",
+  "main": "api/carinfo.js",
+  "keywords": [
+    "car",
+    "info",
+    "api",
+    "rest",
+    "vercel",
+    "serverless"
+  ],
+  "scripts": {
+    "start": "node api/carinfo.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
